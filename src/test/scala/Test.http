@@ -1,0 +1,17 @@
+### GET request to example server
+POST http://localhost:8080/chat
+Content-Type: application/json
+
+{
+  "value1": "va",
+  "value2": [1,2]
+}
+###
+
+
+POST http://localhost:8080/speak
+Content-Type: multipart/form-data
+
+{
+  "file": "va",
+}
